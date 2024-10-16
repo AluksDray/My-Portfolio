@@ -1271,7 +1271,7 @@ button{
     }
     
     .hero-img{
-        width: 3350px;
+        width: 330px;
         height: 330px;
         position: relative;
         border-radius: 0.75rem;
@@ -1284,7 +1284,15 @@ button{
         flex-direction: column;
         row-gap: 1.5rem;
         position: absolute;
-        top: 31rem;
+        top: 32rem;
         right: 2rem;
+    }
+
+    .footer-sectn p{
+        width: 70%;
+        font-size: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        color: var(--primaryColor);
     }
 }
