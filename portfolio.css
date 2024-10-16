@@ -757,7 +757,7 @@ p{
 
 /* Responiveness */
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     /* Header section */
 .header-sectn{
@@ -1240,7 +1240,7 @@ button{
 
 @media only screen and (max-width:375px){
        /* Hero Section */
-       .hero-sectn{
+    .hero-sectn{
         width: 100%;
         height: auto;
         padding: 1rem 1rem;
@@ -1271,7 +1271,7 @@ button{
     }
     
     .hero-img{
-        width: 330px;
+        width: 320px;
         height: 330px;
         position: relative;
         border-radius: 0.75rem;
@@ -1289,7 +1289,7 @@ button{
     }
 
     .footer-sectn p{
-        width: 70%;
+        width: 80%;
         font-size: 0.5rem;
         align-items: center;
         justify-content: center;
